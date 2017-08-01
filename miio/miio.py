@@ -3,8 +3,8 @@ import socket
 import datetime
 import time
 import codecs
-from protocol import Message
-from protocol import Utils
+from .protocol import Message
+from .protocol import Utils
 
 _LOGGER = logging.getLogger(__name__)
 

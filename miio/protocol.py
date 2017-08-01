@@ -23,7 +23,7 @@ xiaomi_devices = {0x02f2: "Xiaomi Mi Robot Vacuum",
                   0x031a: "Xiaomi Smart home gateway",
                   0x0330: "Yeelight color bulb"
                   }
-xiaomi_devices = {y: x for x, y in xiaomi_devices.items()}
+xiaomi_devices = {y: x for x, y in list(xiaomi_devices.items())}
 
 
 class Utils:

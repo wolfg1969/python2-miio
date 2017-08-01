@@ -4,7 +4,7 @@ import click
 import ast
 import sys
 
-import miio  # noqa: E402
+from . import miio  # noqa: E402
 
 _LOGGER = logging.getLogger(__name__)
 pass_dev = click.make_pass_decorator(miio.device)
